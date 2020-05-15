@@ -97,6 +97,7 @@ def decode_jwt():
         abort(401)
 
 
+
     response = {'email': data['email'],
                 'exp': data['exp'],
                 'nbf': data['nbf'] }
